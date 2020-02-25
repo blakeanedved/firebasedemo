@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Counter</title>
+	</head>
+	<body>
+		<div class="container">
+			<button class="containerButton" id="increment">+</button>
+			<h1 id="counter">0</h1>
+			<button class="containerButton" id="decrement">-</button>
+		</div>
+		<button id="signin">Sign In</button>
+		<div id="firebaseui-auth-container"></div>
+
+		<script src="/__/firebase/7.9.1/firebase-app.js"></script>
+		<script src="/__/firebase/7.9.1/firebase-firestore.js"></script>
+		<script src="/__/firebase/7.9.1/firebase-auth.js"></script>
+		<script src="/__/firebase/7.9.1/firebase-functions.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+		<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+		<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+		<script src="/__/firebase/init.js"></script>
+		<script src="counter.js"></script>
+	</body>
+</html>
